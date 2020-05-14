@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>extract</title>
+</head>
+<body>
+
+
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="imagename" placeholder="imagename">
+
+    <input type="file" name="img">
+    <br>
+    <input type="file" name="originimage">
+
+    <input type="submit">
+
+</form>
+
+
+
+</body>
+</html>
